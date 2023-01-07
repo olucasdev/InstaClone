@@ -1,0 +1,57 @@
+﻿@model InstaClone.Models.Main
+@{
+    ViewData["Title"] = "Instagram";
+}
+<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/InstagramClone.styles.css" asp-append-version="true" />
+
+<div class="_body">
+   
+    <div class="_phones" style="height: 625px; 
+    width: 457px; 
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y4/r/ItTndlZM2n2.png); 
+    background-repeat: no-repeat;">
+    </div>
+    <div class="_container" style="background-color: white;">
+        <div style="padding: 15px">
+        <img src="~/lib/images/instagram-lg.png" style="padding: 0px 50px 0px 50px;" />
+        </div>
+        <img src="~/lib/images/profile.jpg" class="_profile"/>
+        <div style="padding: 15px">
+        <button class="_button">
+        <a asp-area="" asp-controller="Main" asp-action="Index" style="text-decoration: none; font-weight: 600; color:  #FAFAFA;">
+            Continuar como olucasdev
+        </a>
+        </button>
+        </div>
+        <div style="margin: 15px 0px; padding: 0px 40px;">
+        <span>Não é olucasdev</span>
+        <a href="" style="text-decoration: none; font-weight: 600; color:  #0095F6;">  Trocar de conta</a>
+        </div>
+    </div>
+    </div>
+     <footer style="background-color: #FAFAFA;">
+      <div class="navbar">
+        <div class="_links" style="display: flex; flex-direction: row; flex-wrap: wrap; text-align: center;">
+            <span>Meta</span>
+            <span>Sobre</span>
+            <span>Blog</span>
+            <span>Carreiras</span>
+            <span>Ajuda</span>
+            <span>API</span>
+            <span>Privacidade</span>
+            <span>Termos</span>
+            <span>Principais contas</span>
+            <span>Localizações</span>
+            <span>Instagram Lite</span>
+            <span>Carregamento de contatos e não usuários</span>
+        </div>
+       </div>
+        <div>
+            <select aria-label="Trocar idioma de exibição">
+                <option value="pt-br">Português (Brasil)</option>
+            </select>
+            <span class="_span"> &copy; 2023 Instagram from Meta</span>
+        </div>
+    </footer>

@@ -1,0 +1,75 @@
+._body {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin: auto 0;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+._profile {
+    border: solid 1px var(--grey-1);
+    border-radius: 100px;
+    display: block;
+    font: inherit;
+    font-size: 100%;
+    height: 100px;
+    margin: 10px auto 10px;
+    padding: 0;
+    vertical-align: baseline;
+    width: 100px;
+}
+
+._button {
+    border-radius: 8px;
+    font-family: Roboto;
+    color: aliceblue;
+    background-color: #0095F6;
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+    padding: 7px 16px;
+    pointer-events: auto;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    -webkit-user-select: none;
+}
+    ._button:hover {
+        border-radius: 8px;
+        font-family: Roboto;
+        color: aliceblue;
+        background-color: #0078F9;
+        font-size: 14px;
+        border: none;
+        font-weight: 600;
+        padding: 7px 16px;
+        pointer-events: auto;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 200px;
+        -webkit-user-select: none;
+    }
+
+._container {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 350px;
+    font: inherit;
+    font-size: 100%;
+    margin: 20px 0 10px;
+    padding: 20px 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+._phones {
+    margin-top: 27px;
+}
