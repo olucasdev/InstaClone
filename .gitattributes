@@ -11,7 +11,7 @@
 # Note: This is only used by command line
 ###############################################################################
 #*.cs     diff=csharp
-
+*.cs     diff=csharp
 *.css linguist-detectable=false
 *.html linguist-detectable=false
 ###############################################################################
